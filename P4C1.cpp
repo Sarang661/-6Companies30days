@@ -2,6 +2,7 @@ string encode(string src)
 {     
  string s="";
  int prev=0;
+ 
  for(int i=0;i<src.length();i++){
      if(i>0 && src[i]!=src[i-1]){
          int num=i-prev;
@@ -15,4 +16,5 @@ string encode(string src)
  }
  return s;
 }     
+
  
